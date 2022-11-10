@@ -1,0 +1,62 @@
+<?php
+/**
+  * @author    United Parcel Service of America, Inc.*
+  * @copyright (c) 2019 United Parcel Service of America, Inc., all rights reserved*
+  * @license   This work is Licensed under the Academic Free License version 3.0
+  *            http://opensource.org/licenses/afl-3.0.php *
+  * @link      https://www.ups.com/pl/en/services/technology-integration/ecommerce-plugins.page *
+ */
+
+return [
+'txtPkgPackageName' => 'Pakketnaam',
+'txtPkgEditing' => 'Standaardpakket bewerken',
+'txtPkgDimension' => 'Afmeting',
+'txtPkgDimUnit' => 'Afmetingen pakketeenheid:',
+'txtPkgWeightUnit' => 'Pakket Gewicht Eenheid:',
+'txtPackitem' => 'Artikel afzonderlijk verpakken',
+'txtWeightBased' => 'Op gewicht gebaseerde verpakking',
+'txtBoxBased' => 'Op dozen gebaseerde verpakking',
+'txtPkgWeightSize' => 'Maak een keuze',
+'txtPkgDefaultOption' => 'Basis (aantal artikelen in de e-shopperbestelling bepalen de pakketgrootte)',
+'txtPkgProductOption' => 'Geavanceerd (gewichten en afmetingen van producten in de e-shopperbestelling bepalen de pakketgrootte)',
+'txtPkgProductOptionNote' => 'Waarschuwing! Om deze optie te gebruiken, moet u productgewichten invoeren in de productinstellingen van uw winkel',
+'txtPkgBoxDimension' => 'Pakketafmetingen:',
+'txtPkgAddBoxDimension' => 'Opmerking: de plug-in maakt een aangepaste pakketgrootte als een e-shopperbestelling groter is dan de pakketten die u invoert',
+'txtPkgDefaultOptionNote1' => 'Voeg standaardpakketten toe als u de pakketgrootte voor de tariefberekening wilt wijzigen op basis van het aantal artikelen in de bestelling van de e-shopper',
+'txtPkgDefaultOptionNote2' => 'Opmerking: als het aantal artikelen in de bestelling van de e-shopper niet overeenkomt met uw invoer, dan wordt de grootte van het pakket, gebruikt voor de tariefberekening, gebaseerd op die van het hoogste aantal items dat overschreden wordt door de bestelling van de e-shopper.',
+'txtPkgName' => 'Naam',
+'txtPkgNumberOfItem' => 'aantal artikelen in bestelling',
+'txtPkgLength' => 'Lengte',
+'txtPkgWidth' => "Breedte",
+'txtPkgHeight' => 'Hoogte',
+'txtPkgWeight' => 'Gewicht',
+'txtPkgMaxWeight' => 'Maximaal gewicht',
+'txtPkgIncludeDimension' => 'Kies het verpakkingsalgoritme',
+'txtPkgIncludeDimensionNote' => "Indien ingesteld op 'Nee', dan worden de tarieven alleen gebaseerd op de productgewichten.  Indien ingesteld op 'Ja', dan moeten de productafmetingen worden ingevoerd in de productinstellingen van uw winkel",
+'txtPkgBackupRate' => 'Noodtarief',
+'txtPkgServiceName' => 'Naam service',
+'txtPkgRate' => 'Tarief',
+'txtPkgAddBackupRate' => 'verzend tarief',
+'txtPkgBackupRate' => 'Noodtarief:',
+'txtPkgBackupRateNote' => 'Noodtarieven worden alleen weergegeven voor e-shoppers als er een probleem is met de productinstellingen, zoals ontbrekende gewichten of als de gewichten/afmetingen de UPS-limieten overschrijden',
+'txtErrorNext' => 'Voer ten minste één standaardpakket in om door te gaan.',
+'txtPkgDefault' => 'Standaard pakketinstelling',
+'txtPkgWeightSize2' => 'Als u het realtime UPS-verzendtarief wilt weergeven (die in het volgende scherm moet worden geconfigureerd) in uw webshop, wordt het eerste pakket door de plug-in gebruikt. Dit pakket wordt \'Standaardpakket\' genomen en is hieronder weergegeven. Het gewicht en de afmetingen van het Standaardpakket worden gebruikt om de UPS-verzendtarieven te berekenen die worden weergegeven in de webshop.',
+'txtPkgDefaultPackage' => 'Standaardpakket',
+'txtPkgAddNewPackage' => 'Nieuw pakket toevoegen',
+'txtPkgExample' => 'Bijvoorbeeld: Standaard, groot, telefoonbox, enz.',
+'txtPkgUnit' => 'Eenheid',
+'txtPkgRemove' => 'Pakket verwijderen',
+'txtPkgOkToRemove' => 'U staat op het punt om dit standaardpakket uit uw profiel te verwijderen.',
+'txtConfirm2' => 'Klik op OK om te bevestigen, sluit het dialoogvenster om te annuleren.',
+'txtPkgKg' => 'Kg',
+'txtPkgPounds' => 'Pounds',
+'txtPkgCm' => 'Cm',
+'txtYes' => 'Ja',
+'txtNo' => 'Nee',
+'txtPkgInch' => 'Inch',
+'txtErrorWeight'   => 'Fout! Het maximale toegestane gewicht per pakket is 70,00 kg of 154,32 lbs.',
+'txtWarningWeight' => 'Waarschuwing! Het maximale toegestane gewicht per pakket voor zendingen die worden aangemaakt voor UPS Access Points is 20,00 kg of 44,09 lbs.',
+'txtErrorSize' => 'Fout! Het pakket overschrijdt de maximale toegestane afmetingen van 400 cm of 157,48 inch (de berekening voor de maximale toegestane afmetingen = lengte + 2 * breedte + 2 * hoogte).',
+'txtWarningSize' => 'Waarschuwing! De maximale toegestane afmetingen per pakket voor zendingen die worden aangemaakt voor UPS Access Points is 330 cm or 129,92 inch (de berekening voor de maximale toegestane afmetingen = lengte + 2 * breedte + 2 * hoogte).',
+];

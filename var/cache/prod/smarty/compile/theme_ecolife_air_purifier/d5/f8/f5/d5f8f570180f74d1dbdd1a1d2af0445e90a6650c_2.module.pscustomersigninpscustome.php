@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-04-12 08:46:04
+/* Smarty version 3.1.43, created on 2022-11-08 21:00:57
   from 'module:pscustomersigninpscustome' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_6255748c773ad6_00282285',
+  'unifunc' => 'content_636b09d9100bf1_41989402',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6255748c773ad6_00282285 (Smarty_Internal_Template $_smarty_tpl) {
+function content_636b09d9100bf1_41989402 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 	<div class="user-info info_setting">
 		<div class="title_setting"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'My account','d'=>'Shop.Theme.Customeraccount'),$_smarty_tpl ) );?>

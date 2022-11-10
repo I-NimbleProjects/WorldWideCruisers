@@ -1126,7 +1126,7 @@ main {
 					flex-wrap: wrap;
 					align-items: center;
 					> div {
-						display: inline-block;
+						display: none;
 						margin-left: 30px;
 						&:first-child {
 							margin: 0;
@@ -1607,7 +1607,7 @@ main {
 
 .slideshow_container  .pos-slideshow{
 	position: relative; 
-	margin-bottom:90px;
+	
 	@media  (max-width:1199px) {  
 		margin-bottom:60px;   
 	}	
@@ -3793,7 +3793,7 @@ main {
 }
 .static_cms {
 	position:relative;
-	background: url(../img/bg_static.jpg) no-repeat;
+	background: url(../img/FJ45static_cms.png) no-repeat;
 	background-size:cover;
 	padding:55px 0;
 	margin-bottom:90px;	
@@ -4201,12 +4201,12 @@ main {
 				flex:1;
 				padding:0 20px;
 				h4 {
-					font-size:16px;
+					font-size:18px;
 					font-weight:600;
 					line-height:1.8;
 				}
 				p {
-					font-size:13px;
+					font-size:16px;
 					color:#7e7e7e;
 				}
 			}

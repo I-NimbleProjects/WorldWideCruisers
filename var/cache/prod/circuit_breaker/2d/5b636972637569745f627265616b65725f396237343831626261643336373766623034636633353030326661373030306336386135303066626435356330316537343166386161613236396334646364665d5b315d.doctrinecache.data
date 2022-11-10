@@ -1,0 +1,91 @@
+1660555753
+s:6048:"<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/en/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/en/blog/feed.xml</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>How the Synalia Group got a brand new look for its online sales</title>
+    <link>https://www.prestashop.com/en/blog/synalia-prestashop-ecommerce</link>
+    <description>The cooperative group of jewelers and watchmakers that oversees the brands Julien d&#039;Orcel, Guilde des Orfèvres and Montres and Co recently chose PrestaShop to redesign its three ecommer</description>
+     <pubDate>Wed, 10 Aug 2022 18:12:31 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/synalia-prestashop-ecommerce</guid>
+  </item>
+  <item>
+    <title>Understanding the migration process to PrestaShop</title>
+    <link>https://www.prestashop.com/en/blog/migrating-to-prestashop</link>
+    <description>This article is a guide to understand the stakes and succeed in migrating to PrestaShop. (It is not a guide to know if you should migrate or not).</description>
+     <pubDate>Wed, 10 Aug 2022 17:55:54 +0200</pubDate>
+ <dc:creator>Ana Aguirre</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/migrating-to-prestashop</guid>
+  </item>
+  <item>
+    <title>SEO and SEA tips for ecommerce</title>
+    <link>https://www.prestashop.com/en/blog/seo-sea-tips</link>
+    <description>When searching for services and products, customers typically use a search engine to discover potential fits to their desire.</description>
+     <pubDate>Thu, 04 Aug 2022 11:04:16 +0200</pubDate>
+ <dc:creator>Nahla Davies</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/seo-sea-tips</guid>
+  </item>
+  <item>
+    <title>How much does an online store cost?</title>
+    <link>https://www.prestashop.com/en/blog/cost-online-store</link>
+    <description>How much does an online store cost? Well, it can vary from as little as $10 a month to thousands.</description>
+     <pubDate>Tue, 26 Jul 2022 12:43:08 +0200</pubDate>
+ <dc:creator>Nahla Davies</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/cost-online-store</guid>
+  </item>
+  <item>
+    <title>The winning advertising campaigns of the On Achète Français store</title>
+    <link>https://www.prestashop.com/en/blog/advertising-campaigns-shopping</link>
+    <description>The online store On Achète Français, opened in 2020, the go-to marketplace for products “Made in France” has been growing steadily.</description>
+     <pubDate>Wed, 20 Jul 2022 15:52:49 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/advertising-campaigns-shopping</guid>
+  </item>
+  <item>
+    <title>What you should know about storytelling and ecommerce</title>
+    <link>https://www.prestashop.com/en/blog/storytelling-ecommerce</link>
+    <description>Storytelling is the art of turning traditional marketing into content driven by a message that includes depth and breadth of why something is important.</description>
+     <pubDate>Mon, 18 Jul 2022 11:14:00 +0200</pubDate>
+ <dc:creator>Nahla Davies</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/storytelling-ecommerce</guid>
+  </item>
+  <item>
+    <title>3 ways to celebrate with a greener start to the fiscal year</title>
+    <link>https://www.prestashop.com/en/blog/green-ecommerce-ideas</link>
+    <description>When you think about investing in the future of your small business, sustainability may not be the first thing that comes to mind.</description>
+     <pubDate>Wed, 13 Jul 2022 14:59:08 +0200</pubDate>
+ <dc:creator>Alissa Holder</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/green-ecommerce-ideas</guid>
+  </item>
+  <item>
+    <title>A list of green and creative packaging ideas</title>
+    <link>https://www.prestashop.com/en/blog/green-creative-packaging</link>
+    <description>Consumers in 2022 are conscious of their purchasing behaviors, and they&#039;re on the lookout for eco-friendly products offered by brands that value sustainability.</description>
+     <pubDate>Thu, 30 Jun 2022 17:53:37 +0200</pubDate>
+ <dc:creator>Nahla Davies</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/green-creative-packaging</guid>
+  </item>
+  <item>
+    <title>10 Powerful Modules to Integrate eBay &amp;amp; Amazon into PrestaShop </title>
+    <link>https://www.prestashop.com/en/blog/amazon-ebay-prestashop</link>
+    <description>eBay and Amazon are the top leading names in the world of online business.</description>
+     <pubDate>Mon, 20 Jun 2022 17:38:57 +0200</pubDate>
+ <dc:creator>John Ahya</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/amazon-ebay-prestashop</guid>
+  </item>
+  <item>
+    <title>Revolutionize your organization with unified  commerce </title>
+    <link>https://www.prestashop.com/en/blog/unified-commerce</link>
+    <description>This year, 72% of merchants will prioritize unified commerce. After omnichannel commerce, 2022 will be the year of unified commerce.</description>
+     <pubDate>Thu, 09 Jun 2022 15:15:43 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/unified-commerce</guid>
+  </item>
+  </channel>
+</rss>
+";

@@ -1,0 +1,62 @@
+<?php
+/**
+  * @author    United Parcel Service of America, Inc.*
+  * @copyright (c) 2019 United Parcel Service of America, Inc., all rights reserved*
+  * @license   This work is Licensed under the Academic Free License version 3.0
+  *            http://opensource.org/licenses/afl-3.0.php *
+  * @link      https://www.ups.com/pl/en/services/technology-integration/ecommerce-plugins.page *
+ */
+
+return [
+'txtPkgDefault' => 'Configuración predeterminada del paquete',
+'txtPkgWeightSize' => 'Selecciona una opción',
+'txtPkgDefaultOption' => 'Básico (el número de artículos en el pedido del cliente electrónico determina el tamaño del paquete)',
+'txtPkgProductOption' => 'Avanzado (el peso y las dimensiones de los productos en el pedido del cliente electrónico determinan el tamaño del paquete)',
+'txtPkgProductOptionNote' => '¡Advertencia! Para usar esta opción, debes ingresar los pesos de los productos en la configuración de productos de tu tienda',
+'txtPkgBoxDimension' => 'Dimensiones del paquete:',
+'txtPkgAddBoxDimension' => 'Nota: el complemento creará un tamaño de paquete personalizado si algún pedido del cliente electrónico es superior a los paquetes que introduces',
+'txtPkgDefaultOptionNote1' => 'Añade paquetes predeterminados si desea, que este cambie en función del número de articulos en una orden',
+'txtPkgDefaultOptionNote2' => 'Nota: Si el número de artículos en la orden de compra online no coindice con ninguno de tus registro anteriores de embalaje, el tamaño de paqueta a utilizar será el mayor disponible, previamente definido por Ud.',
+'txtPkgName' => 'Nombre',
+'txtPkgNumberOfItem' => 'Número de artículos en orden',
+'txtPkgLength' => 'Largo',
+'txtPkgWidth' => 'Ancho',
+'txtPkgHeight' => 'Alto',
+'txtPkgWeight' => 'Peso',
+'txtPkgMaxWeight' => 'Peso máximo',
+'txtPkgIncludeDimension' => 'Elija el algoritmo de empaque',
+'txtPkgIncludeDimensionNote' => 'Si se selecciona "No", las tarifas se basarán únicamente en el peso de los productos.  Si selecciona  "Sí", se han de  ingresar las dimensiones del producto en la configuración del producto de su tienda',
+'txtPkgBackupRate' => 'Tarifa por defecto',
+'txtPkgServiceName' => 'Nombre del Servicio',
+'txtPkgRate' => 'Tarifas',
+'txtPkgAddBackupRate' => 'Agregar tasa de respaldo',
+'txtPkgBackupRate' => 'Tarifa por defecto:',
+'txtPkgBackupRateNote' => 'En caso de que exista un fallo como  falta de peso o si peso/dimensiones exceden los límites de UPS, se mostrará la tarifa por defecto.',
+'txtPkgWeightSize2' => 'Si has decidido mostrar a los compradores electrónicos las tarifas de envío de UPS en tiempo real (que se configurarán en la siguiente pantalla), el complemento utilizará el primer paquete, al que se hará referencia como «paquete predeterminado», que aparece a continuación. El peso y las dimensiones del paquete predeterminado se utilizarán para calcular las tarifas de envío de UPS que se mostrarán a los compradores electrónicos.',
+'txtPkgAddNewPackage' => 'Añadir nuevo paquete',
+'txtPkgPackageName' => 'Nombre de paquete',
+'txtPkgExample' => 'Ejemplo: estándar, grande, caja de teléfono, etc.',
+'txtPkgUnit' => 'Unidad',
+'txtPkgDimension' => 'Dimensiones',
+'txtPkgDimUnit' => 'Dimensión de la unidad del paquete',
+'txtPkgWeightUnit' => 'Unidad de peso del paquete',
+'txtPackitem' => 'Empacar artículo individualmente',
+'txtWeightBased' => 'Embalaje basado en el peso',
+'txtBoxBased' => 'Embalaje basado en caja',
+'txtPkgEditing' => 'Editar paquete predeterminado',
+'txtPkgRemove' => 'Eliminar paquete',
+'txtErrorNext' => 'Introduce al menos un paquete predeterminado para continuar.',
+'txtPkgDefaultPackage' => 'Embalaje predeterminado',
+'txtPkgOkToRemove' => 'Vas a eliminar este paquete predeterminado de tu perfil.',
+'txtConfirm2' => 'Haz clic en Aceptar para confirmar o cierra el diálogo para cancelar.',
+'txtPkgKg' => 'Kg',
+'txtPkgPounds' => 'Pounds',
+'txtPkgCm' => 'Cm',
+'txtYes' => 'Sí',
+'txtNo' => 'No',
+'txtPkgInch' => 'Inch',
+'txtWarningWeight'   => '¡Advertencia! El peso máximo permitido por paquete para los envíos de UPS Access Point es de 20 kg o 44.09 libras.',
+'txtErrorWeight' => 'Error: El peso máximo permitido por paquete es de 70 kg o 154.32 libras.',
+'txtErrorSize' => 'Error: El paquete supera las dimensiones máximas permitidas de 400 cm o 157.48 pulgadas (el cálculo de las dimensiones máximas se obtiene de la fórmula = largo + 2* ancho + 2* altura).',
+'txtWarningSize' => '¡Advertencia! Las dimensiones máximas permitidas por paquete para los envíos de UPS Access Points son de 330 cm o 129.92 pulgadas (el cálculo de las dimensiones máximas se obtiene de la fórmula = largo + 2* ancho + 2* altura).',
+];

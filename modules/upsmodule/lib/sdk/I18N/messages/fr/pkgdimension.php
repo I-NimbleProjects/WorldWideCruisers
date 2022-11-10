@@ -1,0 +1,62 @@
+<?php
+/**
+  * @author    United Parcel Service of America, Inc.*
+  * @copyright (c) 2019 United Parcel Service of America, Inc., all rights reserved*
+  * @license   This work is Licensed under the Academic Free License version 3.0
+  *            http://opensource.org/licenses/afl-3.0.php *
+  * @link      https://www.ups.com/pl/en/services/technology-integration/ecommerce-plugins.page *
+ */
+
+return [
+'txtPkgDefault' => 'Paramétrage du colis par défaut',
+'txtPkgAddNewPackage' => 'Ajouter un nouveau colis',
+'txtPkgPackageName' => 'Nom du colis',
+'txtPkgExample' => 'Exemple : standard, gros, boîte de téléphone, etc.',
+'txtPkgUnit' => 'Unité',
+'txtPkgDimension' => 'Dimension',
+'txtPkgDimUnit' => 'Dimensions de l’unité d’emballage',
+'txtPkgWeightUnit' => 'Unité de poids du colis',
+'txtPackitem' => 'Emballez l’article individuellement',
+'txtWeightBased' => 'Emballage basé sur le poids',
+'txtBoxBased' => 'Emballage basé sur une boîte',
+'txtPkgEditing' => 'Modifier le colis par défaut',
+'txtPkgRemove' => 'Supprimer le colis',
+'txtErrorNext' => 'Veuillez entrer au moins un colis par défaut pour continuer.',
+'txtPkgWeightSize' => "Veuillez sélectionner une option",
+'txtPkgDefaultOption' => "Option de base (le nombre d’articles dans la commande en ligne détermine la taille du colis)",
+'txtPkgProductOption' => "Option avancée (les poids et les dimensions des articles de la commande en ligne déterminent la taille du colis)",
+'txtPkgProductOptionNote' => 'Attention ! Pour utiliser cette option, vous devez saisir le poids du produit dans les paramètres du produit de votre boutique',
+'txtPkgBoxDimension' => "Dimensions de colis :",
+'txtPkgAddBoxDimension' => "Remarque : Le plug-in créera une taille de colis personnalisée si les dimensions d’une commande en ligne sont supérieures à celles des colis que vous saisissez",
+'txtPkgDefaultOptionNote1' => "Ajoutez des colis par défaut si vous souhaitez que la taille du colis utilisée pour définir le tarif change en fonction du nombre d’articles figurant dans la commande de l’acheteur en ligne",
+'txtPkgDefaultOptionNote2' => "Remarque : si le nombre d’articles figurant dans la commande de l’acheteur en ligne ne correspond à aucune de vos entrées, la taille du colis utilisée pour définir le tarif sera basée sur celle du nombre d’articles le plus élevé dépassé par la commande de l’acheteur en ligne.",
+'txtPkgName' => 'Nom',
+'txtPkgNumberOfItem' => "Nombre d'articles en commande",
+'txtPkgLength' => "Longueur",
+'txtPkgWidth' => "Largeur",
+'txtPkgHeight' => "Hauteur",
+'txtPkgWeight' => "Poids",
+'txtPkgMaxWeight' => "Poids maximum",
+'txtPkgIncludeDimension' => 'Choisissez l’algorithme d’emballage',
+'txtPkgIncludeDimensionNote' => "Si « Non » est sélectionné, les tarifs seront basés uniquement sur le poids des produits.  Si « Oui » est sélectionné, vous devez saisir les dimensions du produit dans les paramètres du produit de votre boutique",
+'txtPkgBackupRate' => "Tarif d’urgence",
+'txtPkgServiceName' => 'Nom du service',
+'txtPkgRate' => 'Tarif',
+'txtPkgAddBackupRate' => 'Ajouter un taux de sauvegarde',
+'txtPkgBackupRate' => 'Tarif d’urgence:',
+'txtPkgBackupRateNote' => 'Les acheteurs en ligne ne verront les tarifs d’urgence que si un problème survient dans les paramètres du produit, par exemple si le poids n’est pas indiqué ou si le poids et les dimensions dépassent les limites autorisées par UPS.',
+'txtPkgWeightSize2' => "Si vous décidez d’afficher les tarifs d’expédition d’UPS en temps réel (à configurer à l’écran suivant) pour vos clients, l’extension utilisera le premier colis, appelé « Colis par défaut » et affiché ci-dessous. Le poids et les dimensions du colis par défaut seront utilisés pour calculer les tarifs d’expédition d’UPS qui seront affichés aux clients.",
+'txtPkgOkToRemove' => 'Vous êtes sur le point de retirer ce colis par défaut de votre profil.',
+'txtConfirm2' => 'Cliquez sur OK pour confirmer, fermez la boîte de dialogue pour annuler.',
+'txtPkgDefaultPackage' => 'Colis par défaut',
+'txtPkgKg' => 'Kg',
+'txtPkgPounds' => 'Pounds',
+'txtPkgCm' => 'Cm',
+'txtYes' => 'Oui',
+'txtNo' => 'Non',
+'txtPkgInch' => 'Inch',
+'txtErrorWeight'   => 'Erreur : Le poids maximal autorisé par colis est de 70 kg (154,32 lb).',
+'txtWarningWeight' => 'Attention : Le poids maximal autorisé par colis pour les envois créés pour les envois UPS Access Point est de 20 kg (44,09 lb).',
+'txtErrorSize' => 'Erreur : Le colis excède la taille maximale autorisée de 400 cm (157,48 po) (calcul de la taille maximale autorisée : longueur + 2 x largeur + 2 x hauteur).',
+'txtWarningSize' => 'Attention : la taille maximale autorisée par envoi créé pour des envois UPS Access Point est 330 cm (129,92 po) (calcul de la taille maximale autorisée : longueur + 2 x largeur + 2 x hauteur)',
+];

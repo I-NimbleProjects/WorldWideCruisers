@@ -1,0 +1,62 @@
+<?php
+/**
+  * @author    United Parcel Service of America, Inc.*
+  * @copyright (c) 2019 United Parcel Service of America, Inc., all rights reserved*
+  * @license   This work is Licensed under the Academic Free License version 3.0
+  *            http://opensource.org/licenses/afl-3.0.php *
+  * @link      https://www.ups.com/pl/en/services/technology-integration/ecommerce-plugins.page *
+ */
+
+return [
+'txtPkgDefault' => ' Domyślne ustawienie przesyłki',
+'txtPkgWeightSize' => 'Proszę wybrać opcję',
+'txtPkgDefaultOption' => 'Podstawowa (liczba pozycji w zamówieniu e-shopper określa rozmiar paczki)',
+'txtPkgProductOption' => 'Zaawansowana (waga i wymiary produktów w zamówieniu e-shopper określają rozmiar paczki)',
+'txtPkgProductOptionNote' => 'Ostrzeżenie! Aby skorzystać z tej opcji, należy wprowadzić wagę produktów w ustawieniach produktu w sklepie',
+'txtPkgBoxDimension' => 'Wymiary paczki:',
+'txtPkgAddBoxDimension' => 'Uwaga: wtyczka utworzy niestandardowy rozmiar paczki, jeśli zamówienie e-shopper jest większe niż wprowadzone paczki.',
+'txtPkgDefaultOptionNote1' => 'Dodaj automatyczne paczki, jeśli chcesz, aby użyty do obliczenia stawki rozmiar paczki zmienił się na podstawie liczby artykułów w zamówieniu klienta sklepu internetowego',
+'txtPkgDefaultOptionNote2' => 'Uwaga: Jeśli liczba artykułów w zamówieniu klienta nie odpowiada żadnemu wpisowi, rozmiar paczki, na podstawie którego oblicza się stawkę, będzie się opierał na przekroczonej liczbie najwyższych elementów w zamówieniu klienta sklepu internetowego.',
+'txtPkgName' => 'Nazwa',
+'txtPkgNumberOfItem' => 'Liczba pozycji w zamówieniu',
+'txtPkgLength' => 'Długość',
+'txtPkgWidth' => 'Szerokość',
+'txtPkgHeight' => 'Wysokość',
+'txtPkgWeight' => 'Waga',
+'txtPkgMaxWeight' => 'Maksymalna waga',
+'txtPkgIncludeDimension' => 'Wybierz algorytm pakowania',
+'txtPkgIncludeDimensionNote' => 'Jeśli ustawisz „Nie”, stawki zostaną obliczone wyłącznie na podstawie wagi produktu.  Jeśli ustawisz „Tak”, należy wprowadzić rozmiary produktu w ustawieniach produktu w sklepie',
+'txtPkgBackupRate' => 'Stawka awaryjna',
+'txtPkgServiceName' => 'Nazwa usługi',
+'txtPkgRate' => 'Stawka',
+'txtPkgAddBackupRate' => 'Dodaj opłatę za usługę',
+'txtPkgBackupRate' => 'Stawka awaryjna:',
+'txtPkgBackupRateNote' => 'Stawki awaryjne zostaną wyświetlone klientom sklepu internetowego wyłącznie w sytuacji, gdy wystąpi problem z ustawieniami produktu, taki jak brak wagi lub gdy waga/rozmiar przekraczają limity UPS',
+'txtPkgWeightSize2' => 'Jeśli chcesz wyświetlać aktualną stawkę UPS (do ustawienia na następnym ekranie), wtedy wtyczka wykorzysta pierwszą przesyłkę (Przesyłka domyślna) wyświetlaną poniżej. Waga i wymiary Przesyłki domyślnej będą wykorzystane do wyliczenia cen za przesyłki UPS wyświetlane kupującym',
+'txtPkgAddNewPackage' => 'Dodaj nową paczkę',
+'txtPkgPackageName' => 'Nazwa paczki',
+'txtPkgExample' => 'Przykład: standardowa, duża, pudełko tel. itp.',
+'txtPkgUnit' => 'Jednostka',
+'txtPkgDimension' => 'Wymiar',
+'txtPkgDimUnit' => 'Wymiary jednostki opakowania',
+'txtPkgWeightUnit' => 'Jednostka wagi opakowania',
+'txtPackitem' => 'Zapakuj przedmiot indywidualnie',
+'txtWeightBased' => 'Pakowanie na podstawie wagi',
+'txtBoxBased' => 'Pakowanie w pudełku',
+'txtPkgEditing' => 'Edycja przesyłki domyślnej',
+'txtPkgRemove' => 'Usuń przesyłkę',
+'txtPkgOkToRemove' => 'Zamierzasz usunąć tę domyślną przesyłkę ze swojego profilu.',
+'txtConfirm2' => 'Kliknij OK, aby potwierdzić, zamknij okno dialogowe, aby anulować.',
+'txtErrorNext' => 'Wprowadź co najmniej jedną przesyłkę domyślną, aby kontynuować.',
+'txtPkgDefaultPackage' => 'Przesyłka domyślna',
+'txtPkgKg' => 'Kg',
+'txtPkgPounds' => 'Funty',
+'txtPkgCm' => 'Cm',
+'txtYes' => 'Tak',
+'txtNo' => 'Nie',
+'txtPkgInch' => 'Cal',
+'txtErrorWeight'   => 'Błąd! Maksymalna dozwolona waga paczki to 70,00 kg lub 154,32 funtów.',
+'txtWarningWeight' => 'Ostrzeżenie! Maksymalna dozwolona waga paczki dla przesyłek utworzonych dla UPS Access Point to 20,00 kg lub 44,09 funtów.',
+'txtErrorSize' => 'Błąd! Paczka przekracza maksymalne dozwolone rozmiary 400 cm lub 157,48 cali (obliczanie maksymalnego dozwolonego rozmiaru = długość + 2 * szerokość + 2 * wysokość).',
+'txtWarningSize' => 'Ostrzeżenie! Maksymalny dozwolony rozmiar na paczkę dla przesyłek utworzonych dla UPS Access Point to 330 cm lub 129,92 cali (obliczanie maksymalnego dozwolonego rozmiaru = długość + 2 * szerokość + 2 * wysokość).',
+];

@@ -7,6 +7,10 @@
 SetEnv HTTP_MOD_REWRITE On
 </IfModule>
 
+
+# Disable Multiviews
+Options -Multiviews
+
 RewriteEngine on
 
 

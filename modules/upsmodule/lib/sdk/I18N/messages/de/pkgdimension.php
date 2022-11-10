@@ -1,0 +1,62 @@
+<?php
+/**
+  * @author    United Parcel Service of America, Inc.*
+  * @copyright (c) 2019 United Parcel Service of America, Inc., all rights reserved*
+  * @license   This work is Licensed under the Academic Free License version 3.0
+  *            http://opensource.org/licenses/afl-3.0.php *
+  * @link      https://www.ups.com/pl/en/services/technology-integration/ecommerce-plugins.page *
+ */
+
+return [
+'txtPkgDefault' => 'Standardpaketeinstellung',
+'txtPkgWeightSize' => 'Bitte wählen Sie eine Option aus',
+'txtPkgDefaultOption' => 'Standard (Anzahl der Artikel in der E-Shopper-Bestellung bestimmt die Paketgröße)',
+'txtPkgProductOption' => 'Erweitert (Gewicht und Abmessungen der Produkte in der E-Shopper-Bestellung bestimmen die Paketgröße)',
+'txtPkgProductOptionNote' => 'Warnung! Um diese Option nutzen zu können, müssen Sie in den Produkteinstellungen Ihres Shops Produktgewichte eingeben',
+'txtPkgBoxDimension' => 'Paketabmessungen:',
+'txtPkgAddBoxDimension' => 'Hinweis: Das Plugin generiert eine kundenspezifische Paketgröße, wenn eine E-Shopper-Bestellung größer ist als die Pakete, die Sie eingeben.',
+'txtPkgDefaultOptionNote1' => 'Fügen Sie Standardpaketabmessungen hinzu, wenn sich die für die Preisberechnung verwendete Paketgröße je nach Anzahl der Artikel in der Bestellung des E-Shopper ändern soll',
+'txtPkgDefaultOptionNote2' => 'Hinweis: Wenn die Anzahl der Artikel in der E-Shopper-Bestellung nicht mit Ihren Eingaben übereinstimmt, basiert die Größe des für die Bewertung verwendeten Pakets auf der höchsten Anzahl von Artikeln, die von der E-Shopper-Bestellung überschritten wurden.',
+'txtPkgName' => 'Name',
+'txtPkgNumberOfItem' => 'Anzahl der bestellten Artikel',
+'txtPkgLength' => 'Länge',
+'txtPkgWidth' => 'Breite',
+'txtPkgHeight' => 'Höhe',
+'txtPkgWeight' => 'Gewicht',
+'txtPkgMaxWeight' => 'Maximales Gewicht',
+'txtPkgIncludeDimension' => 'Wählen Sie Verpackungsalgorithmus',
+'txtPkgIncludeDimensionNote' => 'Wenn „Nein“ eingestellt ist, basieren die Preise nur auf den Produktgewichten.  Bei der Einstellung „Ja“ müssen die Produktabmessungen in den Produkteinstellungen Ihres Shops eingegeben werden',
+'txtPkgBackupRate' => 'Notfallpreis',
+'txtPkgServiceName' => 'Name des Services',
+'txtPkgRate' => 'Preis',
+'txtPkgAddBackupRate' => 'Sicherungsrate hinzufügen',
+'txtPkgBackupRate' => 'Notfallpreis:',
+'txtPkgBackupRateNote' => 'Notfallpreise werden nur dann für E-Shopper angezeigt, wenn ein Problem in den Produkteinstellungen vorliegt, z. B. fehlende Gewichte oder wenn Gewichte/Abmessungen die UPS-Grenzwerte überschreiten.',
+'txtPkgWeightSize2' => 'Wenn Sie sich entscheiden, den Online-Käufern die Echtzeit-Versandtarife von UPS anzuzeigen (zu konfigurieren im nächsten Bildschirm), verwendet das Plug-in das erste Paket, bezeichnet als „Standardpaket“, das nachfolgend abgebildet ist. Gewicht und Maße des Standardpakets werden verwendet, um die UPS Versandtarife zu berechnen, die Online-Käufern angezeigt werden.',
+'txtPkgAddNewPackage' => 'Neues Paket hinzufügen',
+'txtPkgPackageName' => 'Paketname',
+'txtPkgExample' => 'Beispiel: Standard, Groß, Telefonkarton usw.',
+'txtPkgUnit' => 'Einheit',
+'txtPkgDimension' => 'Abmessung',
+'txtPkgDimUnit' => 'Abmessungen der Verpackungseinheitx',
+'txtPkgWeightUnit' => 'Gewichtseinheit des Pakets',
+'txtPackitem' => 'Artikel einzeln verpacken',
+'txtWeightBased' => 'Gewichtsabhängige Verpackung',
+'txtBoxBased' => 'Kartonbasierte Verpackung',
+'txtPkgEditing' => 'Bearbeiten des Standardpakets',
+'txtPkgRemove' => 'Paket entfernen',
+'txtErrorNext' => 'Geben Sie bitte mindestens ein Standardpaket ein, um fortzufahren.',
+'txtPkgDefaultPackage' => 'Standardpaket',
+'txtPkgOkToRemove' => 'Sie sind im Begriff, dieses Standardpaket aus Ihrem Profil zu entfernen.',
+'txtConfirm2' => 'Klicken Sie zum Bestätigen auf „Ok“ oder schließen Sie das Dialogfeld, um den Vorgang abzubrechen.',
+'txtPkgKg' => 'Kg',
+'txtPkgPounds' => 'Pounds',
+'txtPkgCm' => 'Cm',
+'txtYes' => 'Ja',
+'txtNo' => 'Nein',
+'txtPkgInch' => 'Inch',
+'txtErrorWeight'   => 'Fehler! Das maximal zulässige Gewicht pro Paket beträgt 70,00 kg.',
+'txtWarningWeight' => 'Warnung! Das maximal zulässige Gewicht pro Paket für Sendungen für UPS Access Points beträgt 20,00 kg.',
+'txtErrorSize' => 'Fehler! Das Paket überschreitet die maximal zulässige Größe von 400 cm (Berechnung der maximal zulässigen Größe = Länge + 2 * Breite + 2 * Höhe).',
+'txtWarningSize' => 'Warnung! Die maximal zulässige Größe pro Paket für Sendungen für UPS Access Points beträgt 330 cm (Berechnung der maximal zulässigen Größe = Länge + 2 * Breite + 2 * Höhe).',
+];

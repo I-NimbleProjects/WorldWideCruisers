@@ -89,7 +89,7 @@
 			.panel-product-line .compare-button:hover,.panel-product-line .compare-button.cmp_added,
 			.social_follow li a:hover,
 			.social-sharing li a:hover{  
-			color: #EDD289; 
+			color: white; 
 		}
 		#pos_search_top .form_search .search_submit ,
 		#pos_search_top .form_search .search_submit:hover ,
@@ -159,7 +159,7 @@
 		.btn-secondary:active, .btn-tertiary:active, .btn-primary:active,
 		.btn-secondary:active:focus, .btn-tertiary:active:focus, .btn-primary:active:focus
 		{ 
-			background: #EDD289;
+			background: #000000;
 		}#pos_search_top .form_search .form-control,#tags_block .tags_block li a:hover,
 		#search_filters_wrapper #search_filters .facet .facet-label:hover .custom-checkbox input[type="checkbox"] + span ,
 		#_desktop_megamenu .pos-menu-horizontal .menu-content .menu-item.active  > a,
@@ -171,19 +171,19 @@
 		.owl-dots .owl-dot.active span:before, .owl-dots .owl-dot:hover span:before,
 		.product-images .thumb-container.slick-current > div:before,
 		.product-images .thumb-container:hover > div:before{  
-			border-color: #EDD289;
+			border-color: white;
 		}body{
-            font-family: "Poppins", sans-serif;
-            font-size: 14px;
-            color: #666666;
+            font-family: Merriweather;
+            font-size: 18px;
+            color: #000000;
         }.pos_title h2{ 
-            font-family: "Poppins", sans-serif;
+            font-family: Merriweather;
             font-size: 36px;
             color: #454545;
             text-transform: uppercase;
         }#_desktop_contact_link .contact-link a,.desc_slideshow h2,.desc_slideshow h3,.desc_slideshow h4,.banner-box .txt_cms h3,
 		.product-price-and-shipping,.static_cms .txt_cms h2{  
-            font-family: "Poppins", sans-serif;
+            font-family: Merriweather;
         }.pos_title_column h2{  
             font-size: 32px;
         }.js-product-miniature .product_desc .product_name{

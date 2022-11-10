@@ -1,0 +1,62 @@
+<?php
+/**
+  * @author    United Parcel Service of America, Inc.*
+  * @copyright (c) 2019 United Parcel Service of America, Inc., all rights reserved*
+  * @license   This work is Licensed under the Academic Free License version 3.0
+  *            http://opensource.org/licenses/afl-3.0.php *
+  * @link      https://www.ups.com/pl/en/services/technology-integration/ecommerce-plugins.page *
+ */
+
+return [
+'txtPkgPackageName' => 'Nome del pacco',
+'txtPkgDimension' => 'Dimensioni',
+'txtPkgDimUnit' => 'Dimensione dell’unità di pacchetto',
+'txtPkgWeightUnit' => 'Unità di peso del pacchetto',
+'txtPackitem' => 'Imballare l’articolo singolarmente',
+'txtWeightBased' => 'Imballaggio basato sul peso',
+'txtBoxBased' => 'Imballaggio a base di scatola',
+'txtPkgWeightSize' => "Seleziona un'opzione",
+'txtPkgDefaultOption' => "Base (il numero di articoli nell'ordine e-shopper determina la dimensione del pacco)",
+'txtPkgProductOption' => "Avanzata (pesi e dimensioni dei prodotti nell'ordine e-shopper determinano le dimensioni del pacco)",
+'txtPkgProductOptionNote' => 'Avvertenza! Per utilizzare questa opzione è necessario inserire i pesi del prodotto nelle impostazioni del prodotto',
+'txtPkgBoxDimension' => "Dimensioni del pacco:",
+'txtPkgAddBoxDimension' => "Nota: il plug-in creerà una dimensione del pacco personalizzata se un ordine e-shopper è più grande dei pacchi immessi",
+'txtPkgDefaultOptionNote1' => "Aggiungi dei pacchi predefiniti se preferisci che le dimensioni del pacco utilizzate per la tariffazione cambino in base al numero di articoli contenuti nell'ordine dell'acquirente",
+'txtPkgDefaultOptionNote2' => "Nota: se il numero di articoli nell'ordine dell'acquirentenon corrisponde a nessuna delle tue voci, la dimensione del pacco utilizzata per la tariffazione sarà basata su quella del conteggio degli articoli più alto superato dall'ordine dell'acquirente online.",
+'txtPkgName' => 'Nome',
+'txtPkgNumberOfItem' => "Numero di articoli nell'ordine",
+'txtPkgLength' => "Lunghezza",
+'txtPkgWidth' => "Larghezza",
+'txtPkgHeight' => "Altezza",
+'txtPkgWeight' => "Peso",
+'txtPkgMaxWeight' => "Peso Massimo",
+'txtPkgIncludeDimension' => 'Scegli Algoritmo di imballaggio',
+'txtPkgIncludeDimensionNote' => 'Se impostate su "No", le tariffe saranno basate solo sui pesi del prodotto.  Se impostate su "Sì", le dimensioni del prodotto devono essere inserite nelle impostazioni del prodotto',
+'txtPkgBackupRate' => "Tariffa di riserva",
+'txtPkgServiceName' => 'Nome del servizio',
+'txtPkgRate' => 'Tariffa',
+'txtPkgAddBackupRate' => 'Aggiungi tariffa aggiuntiva',
+'txtPkgBackupRate' => 'Tariffa di riserva:',
+'txtPkgBackupRateNote' => "Le tariffe di riserva verranno visualizzate dagli acquirenti solo se c'è un problema nelle impostazioni del prodotto, come la mancanza di pesi o se pesi o dimensioni superano i limiti UPS",
+'txtErrorNext' => 'Inserisci almeno un pacco predefinito per continuare.',
+'txtPkgDefault' => 'Impostazione predefinita del pacco',
+'txtPkgWeightSize2' => 'Nel caso tu decida di mostrare la tariffa di spedizione UPS in tempo reale (da configurarsi nella schermata seguente) agli acquirenti online, il plug-in utilizzerà il primo pacco, denominato “Pacco predefinito”, mostrato di seguito. Il peso e le dimensioni del pacco predefinito saranno utilizzati per calcolare le tariffe di spedizione di UPS che verranno mostrate agli acquirenti online.',
+'txtPkgEditing' => 'Modifica del pacco predefinito',
+'txtPkgDefaultPackage' => 'Pacco predefinito',
+'txtPkgAddNewPackage' => 'Aggiungi nuovo pacco',
+'txtPkgExample' => 'Esempio: standard, grande, confezione per telefono, ecc.',
+'txtPkgUnit' => 'Unità',
+'txtPkgRemove' => 'Rimuovi pacco',
+'txtPkgOkToRemove' => 'Rimuoverai il pacco predefinito dal tuo profilo.',
+'txtConfirm2' => 'Fai clic su Ok per confermare, chiudi la finestra per annullare.',
+'txtPkgKg' => 'Kg',
+'txtPkgPounds' => 'Pounds',
+'txtPkgCm' => 'Cm',
+'txtYes' => 'Sì',
+'txtNo' => 'No',
+'txtPkgInch' => 'Inch',
+'txtErrorWeight'   => 'Errore! Il peso massimo consentito per i pacchi è di 70,00 kg o 154,32 lb.',
+'txtWarningWeight' => 'Avvertenza! Il peso massimo consentito per i pacchi di spedizioni create per UPS Access Point è di 20,00 kg o 44,09 lb.',
+'txtErrorSize' => 'Errore! Il pacco supera la dimensione massima consentita di 400 cm o 157,48 pollici (calcolo delle dimensioni massime consentite = lunghezza + 2 * larghezza + 2 * altezza).',
+'txtWarningSize' => 'Avvertenza! La dimensione massima consentita per i pacchi delle spedizioni create per UPS Access Point è di 330 cm o 129,92 pollici (calcolo delle dimensioni massime consentite = lunghezza + 2 * larghezza + 2 * altezza).',
+];

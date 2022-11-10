@@ -4279,7 +4279,7 @@
   ),
   'WebserviceRequest' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/webservice/WebserviceRequest.php',
     'type' => 'class',
     'override' => false,
   ),

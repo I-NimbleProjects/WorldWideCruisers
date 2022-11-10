@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ph_instagram</name>
+    <displayName><![CDATA[Instagram Feed]]></displayName>
+    <version><![CDATA[1.0.5]]></version>
+    <description><![CDATA[Display Instagram photos and videos on PrestaShop homepage in minutes with an easy setup]]></description>
+    <author><![CDATA[ETS-Soft]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
